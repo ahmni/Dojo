@@ -1,0 +1,72 @@
+* {
+	margin: 0px;
+	padding: 0px;
+    box-sizing: border-box;
+    font-family: "Audiowide", cursive;
+    color: red;
+}
+
+html {
+    background-color: black;
+}
+
+.head {
+    border-bottom: 3px solid red;
+    opacity: .7;
+}
+.cobra {
+    width: 80vh;
+    text-align: center;
+    height: auto;
+}
+
+img:hover {
+    opacity: .7
+}
+
+.center {
+    text-align: center;
+}
+
+.nav-link {
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    align-items: flex-end;
+}
+
+main {
+    padding-bottom: 30vh;
+}
+.nav-links {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15vh;
+}
+
+.nav-links:hover {
+    color: white;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.signup {
+    text-align: center;
+}
+
+.title {
+    padding-top: 25vh;
+    padding-bottom: 10vh;
+}
+.footer {
+    text-align: right; 
+    border-top: 3px solid red;
+    opacity: .7
+}
+
+.btn {
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
